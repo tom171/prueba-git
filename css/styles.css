@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin: 0;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  border: dashed 2px red;
+  overflow: hidden;
+}
+.a{
+  background-color: orange;
+  width: 20.833333333%;
+}
+.b{
+  width: 62.4934%;
+  background-color: pink;
+  margin-left: 2.0833%;
+  margin-right: 2.0833%;
+}
+.c{
+  background-color: blue;
+  width: 12.506666667%
+}
+.a, .b, .c{
+  height: 120px;
+  float: left;
+}
+.main-header{
+  background-color: red;
+  width: 100vw;
+  height: 20vh;
+}
+h2{
+  font-size: 1.75em
+}
+@media (max-width: 450px){
+  .a, .b, .c{
+    float: none;
+    width: 100%;
+  }
+}
